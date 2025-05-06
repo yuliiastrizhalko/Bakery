@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  padding: 10px;
+  border: 6px solid darkred;
+  border-radius: 5px;
+  margin: 10px;
+}
