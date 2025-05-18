@@ -29,6 +29,7 @@
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
+  --color-secondary-dark: #a28268;
   --color-brand-normal: #819b57;
   --color-brand-dark: #465929;
   --color-brand-light: #cfcfbc;
@@ -41,6 +42,7 @@
 
 body {
   color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -242,7 +244,7 @@ ul {
 /* Chefs section */
 
 .chefs-title {
-  max-width: 520px;
+  max-width: 532px;
   margin: 0 auto 80px;
 }
 
@@ -254,6 +256,12 @@ ul {
   /* background-color: #cfcfbc; */
   border: 2px solid var(--color-brand-light);
   content: '';
+}
+
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light),
+    -16px 16px 0 2px var(--color-secondary-dark);
 }
 
 .chef-title {
